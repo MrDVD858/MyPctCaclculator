@@ -52,8 +52,8 @@ const Contact = () => {
 
             <div className="inline-flex items-center gap-3 bg-surface border border-border rounded-xl px-6 py-4 mb-12">
               <Mail className="w-6 h-6 text-primary" />
-              <a href="mailto:dvando@gmail.com" className="text-lg font-medium text-primary hover:underline">
-                dvando@gmail.com
+              <a href="mailto:contact@mypctcalculator.com" className="text-lg font-medium text-primary hover:underline">
+                contact@mypctcalculator.com
               </a>
             </div>
 
