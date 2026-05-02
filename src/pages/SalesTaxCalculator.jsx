@@ -253,6 +253,9 @@ const SalesTaxCalculator = () => {
             </div>
           </motion.section>
 
+          {/* AdSense - between how it works and FAQ */}
+          <AdSenseZone slot="8991515885" />
+
           {/* FAQ */}
           <motion.section
             className="py-[56px] md:py-[72px] px-4 sm:px-6 lg:px-8 section-light-bg"
