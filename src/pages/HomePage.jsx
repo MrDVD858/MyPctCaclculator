@@ -198,7 +198,7 @@ const trustItems = [
   'No data stored',
   'No account needed',
   'Works on all devices',
-  'Updated for 2025',
+  'Updated for 2026',
   'HTTPS secured',
 ];
 
@@ -453,12 +453,12 @@ const HomePage = () => {
 
                 <div className="mt-[48px] mb-[24px]">
                   <h3 className="mb-[14px] section-heading">Quick mental-math tricks</h3>
-                  <ul className="list-disc pl-[24px] space-y-[10px] text-[hsl(var(--text-secondary))]">
-                    <li><strong className="text-foreground">X% of Y equals Y% of X.</strong> 4% of 50 is easier as 50% of 4 = 2.</li>
-                    <li><strong className="text-foreground">To find 10%</strong>, move the decimal one place left. 10% of 45.0 is 4.5.</li>
-                    <li><strong className="text-foreground">To find 5%</strong>, find 10% and cut it in half.</li>
-                    <li><strong className="text-foreground">To find 20%</strong>, find 10% and double it.</li>
-                  </ul>
+                  <div className="space-y-[12px] text-[hsl(var(--text-secondary))]">
+                    <p><strong className="text-foreground">X% of Y equals Y% of X.</strong> 4% of 50 is easier as 50% of 4 = 2.</p>
+                    <p><strong className="text-foreground">To find 10%</strong>, move the decimal one place left. 10% of 45.0 is 4.5.</p>
+                    <p><strong className="text-foreground">To find 5%</strong>, find 10% and cut it in half.</p>
+                    <p><strong className="text-foreground">To find 20%</strong>, find 10% and double it.</p>
+                  </div>
                 </div>
               </div>
             </div>
